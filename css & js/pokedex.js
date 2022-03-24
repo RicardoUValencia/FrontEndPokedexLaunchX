@@ -91,6 +91,7 @@ async function searchPokemon(nameOrId){
     loadingDialog.innerHTML = ''     
 }
 loadPokemon()
+
 async function loadPokemon(){          
     evolCount++
 
